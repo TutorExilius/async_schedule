@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "async_schedule"
+version = "0.1.0"
+description = ""
+authors = ["Tutor Exilius <tutorexilius@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+schedule = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.12.0"
+isort = "^5.11.4"
+mypy = "^0.991"
+flake9 = "^3.8.3"
+pylint = "^2.15.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
