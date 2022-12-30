@@ -8,7 +8,7 @@ from schedule import Job, Scheduler
 
 class AsyncJob(Job):
     """The specialized class of the schedule.Job to be able to run
-    non-async ans async functions."""
+    non-async and async functions."""
 
     def run(self):
         """Overloads the schedule.Job.run() with coroutine handling.
