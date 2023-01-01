@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "async_schedule"
 version = "0.1.0"
-description = ""
+description = "Extension of the python schedule module (https://schedule.readthedocs.io/en/stable/) with the ability to handle asyncio coroutines / calling async functions."
 authors = ["Tutor Exilius <tutorexilius@gmail.com>"]
 
 [tool.poetry.dependencies]
